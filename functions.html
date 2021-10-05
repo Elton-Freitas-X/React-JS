@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificando o HTML</title>
+</head>
+<body>
+    <h1>Javascript JS  Modificando o HTML</h1>
+
+
+    <div id="area">
+        Bem vindo...
+    </div>
+
+    <br><br>
+
+    <button onclick="entrar()">Entrar</button>
+
+    <!------------------segundo metodo-->
+
+    <div id="area2">
+        Bem vindo...
+    </div>
+
+    <br><br>
+
+    <button onclick="entrar2('Elton', 23)">Entrar</button>
+
+</body>
+    <script>
+         function entrar(){
+            let area = document.getElementById('area'); 
+            let texto = prompt('digite seu nome');
+
+            if ( texto == '' || texto == null ){
+                alert('digite seu nome novamente');
+                area.innerHTML = 'Bem vindo ...'
+            }else {
+                area.innerHTML = `Bem vindo ${texto} !!`
+            }
+         }   
+
+
+         function entrar2(nome, idade){
+            let area = document.getElementById('area2'); 
+            let texto = prompt('digite seu sobrenome');
+
+            area.innerHTML = nome + " " +texto + " " + idade + " anos " 
+
+         }
+    </script>
+</html>
