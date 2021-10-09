@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descontrução de objetos e arrays</title>
+</head>
+<body>
+    <script>
+        /*
+       const pessoa = {
+           nome: "Matheus",
+           sobrenome: "Fraga",
+           idade: 10,
+           cargo: "Desenvolvedor"
+       };
+
+       // para retirar um dos valores e contruir uma outra variavel é : 
+
+       let {nome} = pessoa;
+
+       //apois isso ele constroi uma variavel nome com o valor "Matheus"
+
+       //tambem pode ser assim 
+       //let {nome, sobrenome, idade, cargo}
+
+       
+       document.write(nome);
+       
+       //PARA MUDAR O NOME CARGO FAÇA ASSIM
+       let { cargo:programador} = pessoa;
+
+       console.log(programador);
+       */
+
+
+
+       /*
+       let nomes = ['Matheus', 'Fraga', 10];
+
+       //pegando os valores da variavel nome pela posição delas
+       let { 1:segundonome} = nomes;
+
+       let { 0: primeironome, 2:idade} = nomes;
+
+       console.log(primeironome,segundonome, idade);
+       */
+
+       //segunda forma de pegar nomes
+       let nomes = ['Matheus', 'Fraga', 10];
+
+       let [ nome, sobrenome, idade ] = nomes;
+
+       console.log(nome, sobrenome);
+    </script>
+</body>
+</html>
