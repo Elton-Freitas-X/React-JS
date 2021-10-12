@@ -8,7 +8,33 @@
 </head>
 <body>
     <script>
-       
+      // let primeiros = [1,2,3];
+
+       //let numeros = [...primeiros ,4,5,6];
+
+       //console.log(numeros)
+
+       //---------------------------------------------------
+
+       //let num1 = {nome: 'Elton', idade: 45, cargo: 'programa'};
+
+       //let num2 = {...num1, ano: 2000, cidade: 'recife'};
+
+      // console.log(num2);
+
+      function cadastroPessoa(info){
+        let novosDados = {
+            ...info,
+            cargo: 'Programador',
+            status: 1,
+            codigo: 1232424214,
+        }
+
+        return novosDados
+      }
+
+     console.log( cadastroPessoa({nome: 'Matues', sobrenome: 'Fraga', anoInicio: 2045 }));
+
     </script>
 </body>
 </html>
