@@ -10,9 +10,8 @@
     <script>
     
         function adicionar(...numeros){
-            let total = numeros.reduce(function(total, proximo){
-                return total + proximo;
-            });
+            let total = numeros.reduce((total, proximo) => 
+                 total + proximo);
 
             console.log(total)
         }

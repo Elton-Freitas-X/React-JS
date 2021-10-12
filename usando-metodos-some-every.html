@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando metodos SOME e EVERY</title>
+</head>
+<body>
+    <h1>FACILITADORES JS</h1>
+
+    <script>
+    
+      //SOME  aqui so precisa so ter 1 item da lista para dar true
+
+      let nomes = ['elton', 'lucas', 'henrique','mateus'];
+
+      console.log(nomes.some(nome => nome === 'mateus'))
+
+      //EVERY aqui precisa todos para boolean retornar true
+
+      pessoas = [//arrey de objetos
+          {nome: 'Matheus', idade: 18},
+          {nome: 'Maria', idade: 30},
+          {nome: 'Nicolas', idade: 9}
+      ];
+
+     if(pessoas.every(nome => nome.idade > 9)){
+         console.log(`TODOS SAO MAIORES DE 9 ANOS`)
+     }else{
+         console.log(`Opss! Alguem é menor de idade`)
+     }
+
+    </script>
+</body>
+</html>
