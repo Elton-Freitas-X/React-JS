@@ -1,4 +1,8 @@
 import React from 'react';
+//usando props e components
+
+
+
 
 const Equipe = (props) => {
     return(

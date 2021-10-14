@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import App from './App';
+//import ClassComponentes from './ClassComponentes'
+import WorkStates from './WorkStates'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WorkStates/>
   </React.StrictMode>,
   document.getElementById('root')
 );
