@@ -4,11 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import App from './App';
 //import ClassComponentes from './ClassComponentes'
-import WorkStates from './WorkStates'
+//import WorkStates from './WorkStates'
+import CiclodeVida from './CiclodeVida'
 
 ReactDOM.render(
   <React.StrictMode>
-    <WorkStates/>
+    <CiclodeVida/>
   </React.StrictMode>,
   document.getElementById('root')
 );
