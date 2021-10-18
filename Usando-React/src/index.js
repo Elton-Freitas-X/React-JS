@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import App from './App';
-//import ClassComponentes from './ClassComponentes'
-//import WorkStates from './WorkStates'
-import CiclodeVida from './CiclodeVida'
+//import ClassComponentes from './ClassComponentes';
+//import WorkStates from './WorkStates';
+//import CiclodeVida from './CiclodeVida';
+//import RenderCondicional from './RenderCondicional';
+import TrabListas from './TrabListas';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CiclodeVida/>
+    <TrabListas/>
   </React.StrictMode>,
   document.getElementById('root')
 );
