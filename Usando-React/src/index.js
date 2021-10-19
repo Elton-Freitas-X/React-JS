@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 //import RenderCondicional from './RenderCondicional';
 //import TrabListas from './TrabListas';
 import TrabFormulario from './TrabFormulario';
+//import TrabFormulario2 from './TrabFormulario2';
 
 ReactDOM.render(
   <React.StrictMode>
