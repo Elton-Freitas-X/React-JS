@@ -7,11 +7,12 @@ import reportWebVitals from './reportWebVitals';
 //import WorkStates from './WorkStates';
 //import CiclodeVida from './CiclodeVida';
 //import RenderCondicional from './RenderCondicional';
-import TrabListas from './TrabListas';
+//import TrabListas from './TrabListas';
+import TrabFormulario from './TrabFormulario';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TrabListas/>
+    <TrabFormulario/>
   </React.StrictMode>,
   document.getElementById('root')
 );
